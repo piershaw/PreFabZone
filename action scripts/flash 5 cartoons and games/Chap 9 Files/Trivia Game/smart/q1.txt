@@ -1,0 +1,1 @@
+question=What is the largest land carnivore?&a1=Lion&a2=Grizzly Bear&a3=Kodiak Bear&ca=3&category=nat hist&level=Medium

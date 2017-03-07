@@ -1,0 +1,132 @@
+
+
+<style type="text/css">
+a.navbar{font-family:verdana, arial, sans-serif, helvetica; font-size:10pt; 
+text-decoration:font-weight:none;}
+
+
+a.navbar:link{color:yellow;}
+a.navbar:active{color:red;}
+a.navbar:visited{color:yellow;}
+a.navbar:hover{color:blue;}
+.btext {font-family: arial; font-size: 9pt; color: yellow; }
+
+
+body,td,th {
+font, td, a, body, input, textarea, table{color:;font-family:;} 
+.lightbluetext8 {font-family: arial; font-size: 9pt; color:color:#ffffff;  } 
+
+
+
+
+.blacktext7{font-family:verdana,arial,sans-serif,helvetica; 
+font-size:7pt; color:green; font-weight:none;}
+
+.footer{font-family:verdana,arial,sans-serif,helvetica; font-size:8pt; 
+color:green font-weight:bold;}
+
+.skip{font-family:verdana,arial,sans-serif,helvetica; font-size:8pt; 
+color:green; font-weight:none;text-align:right;}
+
+.blacktext14bu{font-family:verdana,arial,sans-serif,helvetica; 
+font-size:14pt; color:green; font-weight:none;text-decoration:underline;}
+
+
+.blacktext10 {font-family: arial; font-size: 9pt; color: yellow; } 
+.blacktext12 {font-family: arial; font-size: 9pt; color: Blue; } 
+.lightbluetext8 {font-family: arial; font-size: 9pt; color: yellow; } 
+.nametext {font-family: arial; font-size: 9pt; color: yellow; } 
+.orangetext15 {font-family: arial; font-size: 9pt; color: yellow; } 
+.redbtext {font-family: arial; font-size: 9pt; color: yellow; } 
+.text {font-family: arial; font-size: 9pt; color: red; } 
+.whitetext12 {font-family: arial; font-size: 9pt; color: yellow; } 
+a:link {font-family: arial; font-size: 9pt; color: yellow; } 
+a:hover {font-family: arial; font-size: 9pt; color: yellow; } 
+a:visited {font-family: arial; font-size: 9pt; color: yellow; } 
+
+
+.spacetext{font-family:arial,verdana,arial,sans-serif,helvetica; 
+line-height: 18pt;font-size:10pt; color:#000000; font-weight:none;}
+
+
+body, font, td, li, p, div, textarea, li, h1, h2, p, br {color:white;font-family:arial} 
+}
+
+
+
+
+body {
+background-image:url("http://nt12.npsis.com/users/m/metek/public_html/myspace/BK_green.gif");
+background-attachment:fixed;
+
+background-repeat:repeat;
+background-position:;
+background-color:black;
+}
+body, table, td {background-color:transparent;
+border:none;
+border-width:0};
+
+</style>
+
+
+	
+
+
+
+
+
+
+
+<center><b><u><h2>My Porfolio</h2></center></b></u>
+
+<p>
+<b>This is my 3d art for the job pdainternet</b>
+</p>
+
+<center><p>
+<a href="http://piershaw.tripod.com/Laqua_force10-4c_p.jpg">
+<img border="0" src="http://piershaw.tripod.com/aqua_force10-4c_p.jpg"width="100" height="77"></a>
+
+
+<a href="http://piershaw.tripod.com/LOcaenZaurus.jpg">
+<img border="0" src="http://piershaw.tripod.com/OcaenZaurus.jpg"width="100" height="77"></a>
+
+
+
+<a href="http://piershaw.tripod.com/LPdaParty_p.jpg">
+<img border="0" src="http://piershaw.tripod.com/PdaParty_p.jpg"width="100" height="77"></a>
+
+
+
+
+<a href="http://piershaw.tripod.com/LArtJobs.jpg">
+<img border="0" src="http://piershaw.tripod.com/ArtJobs.jpg"width="100" height="77"></a>
+
+
+
+
+
+</center><p>
+<center><b><u>MY INVENTION</center></b></u>
+</p>
+<p>
+
+SYNCHRONIZED  NIGHTVISION
+
+The new Generation 5 Night vision
+Use for the military ground forces to conduct critical missions during the darkest nights
+This night vision has operations that are classified  
+
+
+Screen shots 
+</p>
+<img border="0" src="http://piershaw.tripod.com/PFRONTnew.gif"
+width="456" height="265"></p>
+
+<img border="0" src="http://piershaw.tripod.com/Psidenew.gif"
+width="456" height="265"></p>
+
+<img border="0" src="http://piershaw.tripod.com/Pbacknew.gif"
+width="456" height="265"></p>
+

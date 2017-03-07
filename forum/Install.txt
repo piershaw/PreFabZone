@@ -1,0 +1,37 @@
+##########  PHP/Text Files Forum ############
+
+For the first time.
+
+1) Create a directory called Forum on your server.
+
+2) Create 4 folders called Category1, Category2, Category3, Category4 in that directory (Forum).
+These directorys/folders must be named those exact Names - Category1 and Category2 For example.
+
+So it looks like this
+Forum/
+Forum/Category1/
+Forum/Category2/
+Forum/Category3/
+Forum/Category4/
+
+3) Change the permissions of each Category folder/directory to 777 - (on windows/Apache you won't have to worry about that) - If your using Win2k/NT with IIS - you will have to make sure the directorys have write permissions.  Actually this may not work on Win2K with IIS web server - But will with Win2K/Apache web server.
+
+4) Place the Forum.php file and Forum.swf in that directory.
+
+5) That's it.  Follow the notes in the Forum.php file and on the Forum.Fla file to learn how to customize everything - hopefully it's somewhat intuitive.
+
+
+###############################################
+You can change all of the settings / Paths to files fairly easily - Make sure everything is working in it's default state before trying to change everything around.
+
+If you have Questions on the Forum or how to modify/install it please visit:
+http://www.flash-db.com/Board/ 
+
+We'll try to answer your questions as soon as possible.
+
+-Jeff Hill  @ Flash-db.com
+
+
+
+
+

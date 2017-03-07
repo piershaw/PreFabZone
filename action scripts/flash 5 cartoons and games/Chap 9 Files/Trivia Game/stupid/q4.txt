@@ -1,0 +1,1 @@
+question=In which American city is Hollywood?&a1=San Francisco&a2=Las Vegas&a3=Los Angeles&ca=3&category=misc&level=Easy

@@ -1,0 +1,1 @@
+question=What board game is known as The Game of The Four Winds?&a1=Mah Jong&a2=Checkers&a3=Chess&ca=1&category=games&level=Medium

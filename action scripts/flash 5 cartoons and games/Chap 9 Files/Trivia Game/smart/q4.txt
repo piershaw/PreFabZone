@@ -1,0 +1,1 @@
+question=Which 2 oceans are joined by the Bering Strait?&a1=Indian and Pacific&a2=Pacific and Atlantic&a3=Pacific and Arctic&ca=3&category=misc&level=Medium

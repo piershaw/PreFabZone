@@ -1,0 +1,1 @@
+question=Which country's capital is Tirana?&a1=Albania&a2=Bulgaria&a3=Mozambique&ca=1&category=misc&level=medium

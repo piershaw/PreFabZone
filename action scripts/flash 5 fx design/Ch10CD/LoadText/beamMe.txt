@@ -1,0 +1,1 @@
+fromTextFile=Space exploration requires that mankind do a great deal more with less. Smaller, lighter, and more ingenious solutions also work well on earth.&buzz=4.95 

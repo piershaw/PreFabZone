@@ -1,0 +1,1 @@
+question=What was the name of Don Quixotes horse?&a1=Black Bess&a2=Rosinante&a3=Alberanto&ca=2&category=people&level=Hard

@@ -1,0 +1,1 @@
+question=Which planet did Johann Galle discover in 1846?&a1=Mercury&a2=Venus&a3=Neptune&ca=3&category=science&level=hard

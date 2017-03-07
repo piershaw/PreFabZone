@@ -1,0 +1,1 @@
+question=In which city was Stephane Grapelli born?&a1=London&a2=Vienna&a3=Paris&ca=3&category=people&level=hard

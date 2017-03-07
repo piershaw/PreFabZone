@@ -1,0 +1,1 @@
+question=What is the minimum numbers of players in a game of bezique?&a1=2&a2=3&a3=4&ca=1&category=games&level=hard

@@ -1,0 +1,41 @@
+if (name eq "fuck") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "shit") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "asshole") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "shithead") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "dumbfuck") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "dickwad") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "cunt") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "dick") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (nameeq "piss") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "suck") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "tits") {
+		_root.Status= "grabs soap and washes mouth";
+	}
+	if (name eq "motherfucker") {
+		_root.Status = "Loves his mother";
+	}
+	if (name eq "fucker") {
+		_root.Status = "grabs soap and washes mouth";
+	}
+	if (name eq "assfuck") {
+		message = "grabs soap and washes mouth";

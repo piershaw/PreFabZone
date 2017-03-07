@@ -1,0 +1,583 @@
+x	VE	analog 5.32
+x	HN	Piershaw.com
+x	HU	http://www.piershaw.com/
+x	PS	2004	08	16	03	59
+x	FR	2003	12	30	01	23
+x	LR	2004	08	16	09	47
+x	E7	2004	08	16	03	59
+x	SR	53390
+x	S7	506
+x	NC	399
+x	C7	0
+x	PR	5336
+x	P7	164
+x	FL	1239
+x	F7	42
+x	RR	46
+x	R7	2
+x	NF	148
+x	N7	29
+x	NH	8383
+x	H7	277
+x	CL	3
+x	BT	6862562054
+x	B7	43239930
+1	RPB	111	39	2288459	2003
+1	RPB	53279	5297	6860273595	2004
+1	*BT	P	5297	2004
+Q	RPB	111	39	2288459	2003	4
+Q	RPB	284	86	25549422	2004	1
+Q	RPB	39490	2559	5583231171	2004	2
+Q	RPB	13505	2652	1251493002	2004	3
+Q	*BT	P	2652	2004	3
+m	RPB	111	39	2288459	2003	12
+m	RPB	129	42	13681756	2004	01
+m	RPB	6	4	405790	2004	02
+m	RPB	149	40	11461876	2004	03
+m	RPB	11	8	608091	2004	04
+m	RPB	7	6	207499	2004	05
+m	RPB	39472	2545	5582415581	2004	06
+m	RPB	11205	2105	1054421073	2004	07
+m	RPB	2300	547	197071929	2004	08
+m	*BT	P	2545	2004	06
+W	RPB	1	1	1236	2004	05	23
+W	RPB	90	6	5554668	2004	05	30
+W	RPB	13815	929	2263559106	2004	06	06
+W	RPB	9491	573	1153751198	2004	06	13
+W	RPB	8867	545	1204280592	2004	06	20
+W	RPB	9485	1083	1104290116	2004	06	27
+W	RPB	2240	502	155226827	2004	07	04
+W	RPB	2126	333	221068012	2004	07	11
+W	RPB	2766	399	303656032	2004	07	18
+W	RPB	1799	281	225651358	2004	07	25
+W	RPB	1504	296	142892307	2004	08	01
+W	RPB	537	169	46400784	2004	08	08
+W	RPB	259	82	7778838	2004	08	15
+W	*BT	P	1083	2004	06	27
+D	RPB	367	42	38961310	2004	07	17
+D	RPB	583	87	46070595	2004	07	18
+D	RPB	329	54	31591600	2004	07	19
+D	RPB	166	36	17414685	2004	07	20
+D	RPB	181	46	18438981	2004	07	21
+D	RPB	641	69	82043462	2004	07	22
+D	RPB	458	58	56037808	2004	07	23
+D	RPB	408	49	52058901	2004	07	24
+D	RPB	232	26	32616485	2004	07	25
+D	RPB	221	33	29564831	2004	07	26
+D	RPB	238	39	27693757	2004	07	27
+D	RPB	144	25	18302737	2004	07	28
+D	RPB	296	39	38263148	2004	07	29
+D	RPB	377	62	44010791	2004	07	30
+D	RPB	291	57	35199609	2004	07	31
+D	RPB	347	53	32523952	2004	08	01
+D	RPB	462	86	44597009	2004	08	02
+D	RPB	257	48	25090251	2004	08	03
+D	RPB	155	38	13838579	2004	08	04
+D	RPB	106	26	10386578	2004	08	05
+D	RPB	90	20	8088182	2004	08	06
+D	RPB	87	25	8367756	2004	08	07
+D	RPB	87	23	9130612	2004	08	08
+D	RPB	86	35	6313298	2004	08	09
+D	RPB	135	39	10228278	2004	08	10
+D	RPB	51	16	4358075	2004	08	11
+D	RPB	66	20	6794405	2004	08	12
+D	RPB	65	20	5870155	2004	08	13
+D	RPB	47	16	3705961	2004	08	14
+D	RPB	62	16	7312061	2004	08	15
+D	RPB	197	66	466777	2004	08	16
+D	*BT	P	324	2004	06	26
+d	RPB	9508	851	1152250938	Sun
+d	RPB	7060	734	808290089	Mon
+d	RPB	3651	444	404698868	Tue
+d	RPB	7178	706	1082504498	Wed
+d	RPB	7618	776	1042215240	Thu
+d	RPB	8609	958	1124345026	Fri
+d	RPB	9766	867	1248257395	Sat
+h	RPB	2448	372	302123148	00
+h	RPB	1915	233	220866710	01
+h	RPB	2006	199	261291982	02
+h	RPB	2076	185	275553205	03
+h	RPB	2425	257	274049171	04
+h	RPB	1745	161	210988046	05
+h	RPB	1308	111	176048428	06
+h	RPB	1493	153	190534435	07
+h	RPB	1250	130	147170020	08
+h	RPB	1616	147	188755416	09
+h	RPB	1950	174	271843696	10
+h	RPB	1740	163	227849112	11
+h	RPB	1954	177	257111954	12
+h	RPB	2023	196	246082161	13
+h	RPB	2066	188	265686198	14
+h	RPB	2284	254	266517615	15
+h	RPB	2559	253	346287320	16
+h	RPB	3291	288	516388303	17
+h	RPB	2746	279	386607233	18
+h	RPB	3313	286	453716725	19
+h	RPB	2901	295	353411097	20
+h	RPB	2821	343	317536862	21
+h	RPB	2710	237	348567455	22
+h	RPB	2750	255	357575762	23
+o	*f	0B	b
+o	lRb	1	23153	41.383	.net (Networks)
+o	lRb	1	11077	21.332	.com (Commercial)
+o	lRb	1	3783	7.434	[unresolved numerical addresses]
+o	lRb	1	3076	5.854	.fr (France)
+o	lRb	1	2274	4.541	.nl (Netherlands)
+o	lRb	1	1624	3.307	.uk (United Kingdom)
+o	lRb	1	1077	2.295	.be (Belgium)
+o	lRb	1	1104	2.001	.ca (Canada)
+o	lRb	1	1035	1.805	.au (Australia)
+o	lRb	1	865	1.790	.de (Germany)
+o	lRb	1	386	0.717	.it (Italy)
+o	lRb	1	323	0.650	.ch (Switzerland)
+o	lRb	1	322	0.592	.fi (Finland)
+o	lRb	1	313	0.585	.at (Austria)
+o	lRb	1	231	0.489	.edu (USA Higher Education)
+o	lRb	1	217	0.431	.dk (Denmark)
+o	lRb	1	225	0.419	.no (Norway)
+o	lRb	1	175	0.379	.se (Sweden)
+o	lRb	1	118	0.368	[domain not given]
+o	lRb	1	180	0.363	.il (Israel)
+o	lRb	1	218	0.354	.br (Brazil)
+o	lRb	1	197	0.352	.nz (New Zealand)
+o	lRb	1	143	0.264	.pt (Portugal)
+o	lRb	1	88	0.255	.us (United States)
+o	lRb	1	110	0.234	.pl (Poland)
+o	lRb	1	119	0.229	.org (Non Profit Making Organisations)
+o	lRb	1	92	0.213	.jp (Japan)
+o	lRb	1	102	0.181	.hu (Hungary)
+o	lRb	1	103	0.178	.mx (Mexico)
+o	lRb	1	92	0.175	.mil (USA Military)
+o	lRb	1	89	0.130	.sg (Singapore)
+o	lRb	1	65	0.107	.tw (Taiwan)
+o	lRb	1	58	0.074	.ru (Russia)
+o	lRb	1	29	0.056	.ar (Argentina)
+o	lRb	1	21	0.048	.ee (Estonia)
+o	lRb	1	22	0.047	.ie (Ireland)
+o	lRb	1	23	0.039	.cz (Czech Republic)
+o	lRb	1	15	0.035	.sa (Saudi Arabia)
+o	lRb	1	20	0.035	.cl (Chile)
+o	lRb	1	19	0.032	.yu (Yugoslavia)
+o	lRb	1	16	0.030	.za (South Africa)
+o	lRb	1	18	0.024	.gr (Greece)
+o	lRb	1	12	0.022	.ro (Romania)
+o	lRb	1	43	0.021	.cy (Cyprus)
+o	lRb	1	36	0.016	.zw (Zimbabwe)
+o	lRb	1	4	0.011	.is (Iceland)
+o	lRb	1	5	0.010	.lt (Lithuania)
+o	lRb	1	7	0.010	.es (Spain)
+o	lRb	1	4	0.010	.do (Dominican Republic)
+o	lRb	1	3	0.008	.ph (Philippines)
+o	lRb	1	5	0.008	.nu (Niue)
+o	lRb	1	2	0.007	.hr (Croatia)
+o	lRb	1	2	0.006	.arpa (Arpanet)
+o	lRb	1	2	0.006	.si (Slovenia)
+o	lRb	1	4	0.006	.gov (USA Government)
+o	lRb	1	6	0.005	.co (Colombia)
+o	lRb	1	2	0.005	.mz (Mozambique)
+o	lRb	1	4	0.005	.tt (Trinidad and Tobago)
+o	lRb	1	2	0.005	.lu (Luxembourg)
+o	lRb	1	4	0.004	.sk (Slovakia)
+o	lRb	1	1	0.003	.gt (Guatemala)
+o	lRb	1	2	0.003	.th (Thailand)
+o	lRb	1	3	0.003	.bg (Bulgaria)
+o	lRb	1	4	0.000	.tr (Turkey)
+o	lRb	1	9	0.000	.sc (Seychelles)
+o	lRb	1	2	0.000	.cu (Cuba)
+o	lRb	1	4	0.000	.ua (Ukraine)
+o	lRb	1	1	0.000	.pe (Peru)
+Z	*f	-50R	r
+Z	lRb	1	3940	7.960	comcast.net
+Z	lRb	1	3270	2.571	charterpipeline.net
+Z	lRb	1	2867	5.910	rr.com
+Z	lRb	1	2078	3.775	wanadoo.fr
+Z	lRb	1	1699	3.352	cox.net
+Z	lRb	1	1122	2.506	proxad.net
+Z	lRb	1	1059	2.077	btcentralplus.com
+Z	lRb	1	1034	2.025	bellsouth.net
+Z	lRb	1	1029	1.666	aol.com
+Z	lRb	1	1019	1.920	t-dialin.net
+Z	lRb	1	1015	2.077	pacbell.net
+Z	lRb	1	899	1.566	adelphia.net
+Z	lRb	1	862	1.684	ntli.net
+Z	lRb	1	802	1.621	blueyonder.co.uk
+Z	lRb	1	713	1.348	charter.com
+Z	lRb	1	669	1.429	optonline.net
+Z	lRb	1	601	1.220	shawcable.net
+Z	lRb	1	587	1.281	adsl.skynet.be
+Z	lRb	1	549	1.127	mindspring.com
+Z	lRb	1	529	1.019	attbi.com
+Z	lRb	1	528	1.101	rogers.com
+Z	lRb	1	486	1.029	swbell.net
+Z	lRb	1	466	1.053	verizon.net
+Z	lRb	1	433	0.790	mc.videotron.ca
+Z	lRb	1	416	0.884	t-ipconnect.de
+Z	lRb	1	411	0.591	qwest.net
+Z	lRb	1	399	0.771	dsl-verizon.net
+Z	lRb	1	387	0.729	pol.co.uk
+Z	lRb	1	385	0.844	ntl.com
+Z	lRb	1	373	0.794	home.nl
+Z	lRb	1	365	0.708	sympatico.ca
+Z	lRb	1	364	0.644	tiscali.fr
+Z	lRb	1	345	0.699	telus.net
+Z	lRb	1	339	0.692	wanadoo.nl
+Z	lRb	1	338	0.716	ameritech.net
+Z	lRb	1	289	0.452	insightbb.com
+Z	lRb	1	282	0.560	planet.nl
+Z	lRb	1	278	0.500	optusnet.com.au
+Z	lRb	1	251	0.505	chello.nl
+Z	lRb	1	240	0.425	pipex.com
+Z	lRb	1	238	0.498	kabel.telenet.be
+Z	lRb	1	237	0.287	direcpc.com
+Z	lRb	1	233	0.472	xs4all.nl
+Z	lRb	1	223	0.510	tele2.fr
+Z	lRb	1	202	0.374	bigpond.net.au
+Z	lRb	1	198	0.405	covad.net
+Z	lRb	1	196	0.401	bluewin.ch
+Z	lRb	1	190	0.387	interbusiness.it
+Z	lRb	1	190	0.420	club-internet.fr
+Z	lRb	1	184	0.081	telusplanet.net
+Z	lRb	1	17581	33.547	[not listed: 1366]
+S	*f	-50R	a
+S	Rb	68	0.092	24.71.18.71
+S	Rb	58	0.054	67.175.20.107
+S	Rb	131	0.084	207.215.253.201
+S	Rb	87	0.146	modemcable210.238-131-66.mc.videotron.ca
+S	Rb	118	0.044	12-220-176-239.client.insightbb.com
+S	Rb	74	0.157	user-0cces37.cable.mindspring.com
+S	Rb	53	0.088	cpc1-ely11-4-0-cust194.cdif.cable.ntl.com
+S	Rb	97	0.117	81-86-162-210.dsl.pipex.com
+S	Rb	51	0.083	cpe0030bd1b9f24-cm000a739b7676.cpe.net.cable.rogers.com
+S	Rb	157	0.268	dhcp024-210-057-182.columbus.rr.com
+S	Rb	51	0.074	cpe-24-175-246-100.gt.rr.com
+S	Rb	133	0.161	cpe-204-210-110-214.hawaii.rr.com
+S	Rb	74	0.079	24-161-55-52.hvc.rr.com
+S	Rb	88	0.148	cs6711181-133.satx.rr.com
+S	Rb	56	0.088	gso31-98-171.triad.rr.com
+S	Rb	61	0.216	127.46.cm.sunflower.com
+S	Rb	68	0.035	alagny-110-1-14-112.w81-249.abo.wanadoo.fr
+S	Rb	58	0.086	cfhq-n.centcom.mil
+S	Rb	68	0.042	ma-plymouth-cad1-grp1a-5-1.albyny.adelphia.net
+S	Rb	75	0.120	adsl-219-34-190.mia.bellsouth.net
+S	Rb	64	0.125	adsl-068-209-171-095.sip.owb.bellsouth.net
+S	Rb	219	0.151	66-215-170-127.rc-eres.charterpipeline.net
+S	Rb	1205	1.532	66-215-150-24.rc-mres.charterpipeline.net
+S	Rb	1615	0.465	68-190-240-152.rc-mres.charterpipeline.net
+S	Rb	151	0.228	c-24-14-159-189.client.comcast.net
+S	Rb	74	0.164	c-24-16-210-191.client.comcast.net
+S	Rb	51	0.040	c-24-20-228-0.client.comcast.net
+S	Rb	129	0.194	pcp650117pcs.mkethn01.fl.comcast.net
+S	Rb	63	0.140	pcp04155922pcs.walngs01.pa.comcast.net
+S	Rb	58	0.150	ip68-228-24-244.pn.at.cox.net
+S	Rb	60	0.137	ip68-109-149-95.ph.ph.cox.net
+S	Rb	92	0.046	ip68-0-197-8.ri.ri.cox.net
+S	Rb	52	0.097	wbar9.chi1-4-11-080-206.dsl-verizon.net
+S	Rb	54	0.122	wbar13.lax1-4.14.123.120.lax1.dsl-verizon.net
+S	Rb	55	0.039	80-190-120-209.mesanetworks.net
+S	Rb	184	0.373	host82-0-0-0.not-set-yet.ntli.net
+S	Rb	67	0.111	cache3-bagu.server.ntli.net
+S	Rb	58	0.102	cache4-lutn.server.ntli.net
+S	Rb	135	0.271	cache7-nott.server.ntli.net
+S	Rb	54	0.038	216-160-92-245.tukw.qwest.net
+S	Rb	59	0.126	px4wh.vc.shawcable.net
+S	Rb	165	0.039	edtn015511.hs.telusplanet.net
+S	Rb	69	0.094	paladin.ul.warwick.net
+S	Rb	51	0.069	cp253792-a.ndwrt1.lb.home.nl
+S	Rb	60	0.138	cp257236-a.mill1.nb.home.nl
+S	Rb	116	0.062	iproxy10.nltree.nl
+S	Rb	71	0.098	asd-slod-2a772.adsl.wanadoo.nl
+S	Rb	80	0.093	vaas.xs4all.nl
+S	Rb	55	0.137	dslam8-163-59-62.adsl.zonnet.nl
+S	Rb	73	0.178	82-37-42-11.cable.ubr02.brom.blueyonder.co.uk
+S	Rb	46525	92.258	[not listed: 8333]
+u	*f	-50R	r
+u	RBD	471	28177991	2004	07	14	19	50	studyeng
+f	*f	-50R	r
+f	lRr	1	12987	76.651	http://www.ataricommunity.com/forums/showthread.php
+f	lRr	2	1028	6.067	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=393647
+f	lRr	2	796	4.698	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=389196
+f	lRr	2	726	4.285	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=388747
+f	lRr	2	327	1.930	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=390719
+f	lRr	2	269	1.588	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=399044
+f	lRr	2	56	0.331	http://www.ataricommunity.com/forums/showthread.php?threadid=389196
+f	lRr	2	51	0.301	http://www.ataricommunity.com/forums/showthread.php?threadid=393647
+f	lRr	2	34	0.201	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=389196&perpage=30&pagenumber=1
+f	lRr	2	24	0.142	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=389502&perpage=30&pagenumber=2
+f	lRr	2	17	0.100	http://www.ataricommunity.com/forums/showthread.php?s=dc10191e95324925896f032a238944ff&threadid=389196
+f	lRr	2	15	0.089	http://www.ataricommunity.com/forums/showthread.php?s=2067513e72fb6ab090cc8c7f1fd742ed&threadid=390719
+f	lRr	2	13	0.077	http://www.ataricommunity.com/forums/showthread.php?s=&threadid=389428
+f	lRr	2	11	0.065	http://www.ataricommunity.com/forums/showthread.php?s=588d97d12027add5f3bbfba16700b08d&threadid=388747
+f	lRr	2	10	0.059	http://www.ataricommunity.com/forums/showthread.php?s=32814b3d7b9478d41d0bacdcdec3364b&threadid=393647
+f	lRr	1	2035	12.011	http://www.ina-community.com/forums/showthread.php
+f	lRr	2	192	1.133	http://www.ina-community.com/forums/showthread.php?s=&threadid=393647
+f	lRr	2	139	0.820	http://www.ina-community.com/forums/showthread.php?s=&threadid=389196
+f	lRr	2	86	0.508	http://www.ina-community.com/forums/showthread.php?s=&threadid=388747
+f	lRr	2	59	0.348	http://www.ina-community.com/forums/showthread.php?s=&threadid=390719
+f	lRr	2	53	0.313	http://www.ina-community.com/forums/showthread.php?s=&threadid=399044
+f	lRr	2	28	0.165	http://www.ina-community.com/forums/showthread.php?s=1939936d62780e69182827a5c09f1d2b&threadid=389196
+f	lRr	2	16	0.094	http://www.ina-community.com/forums/showthread.php?s=59467858378aa4817639d907611cac4a&threadid=393647
+f	lRr	1	529	3.122	http://www.utvehicles.com/modules.php
+f	lRr	2	484	2.857	http://www.utvehicles.com/modules.php?name=Downloads&d_op=viewdownload&cid=7
+f	lRr	2	29	0.171	http://www.utvehicles.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=20&ttitle=Hellwagon
+f	lRr	1	356	2.101	http://ut.filefront.com/file/HellWagon;27519
+f	lRr	1	333	1.965	http://www.unrealtournament.com/news/view.php
+f	lRr	2	332	1.960	http://www.unrealtournament.com/news/view.php?id=1866
+f	lRr	1	185	1.092	http://www.unreal.fr/
+f	lRr	1	67	0.395	http://ina-community.com/forums/showthread.php
+f	lRr	1	56	0.331	http://www.beyondunreal.com/
+f	lRr	1	38	0.224	http://www.unreal.fr/forum/index.php
+f	lRr	2	37	0.218	http://www.unreal.fr/forum/index.php?showtopic=21547
+f	lRr	1	35	0.207	xxxx:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+f	lRr	1	33	0.195	http://unrealtournament.com/news/view.php
+f	lRr	2	33	0.195	http://unrealtournament.com/news/view.php?id=1866
+f	lRr	1	32	0.189	http://www.unreal.fr/unrealtournament2004/
+f	lRr	1	24	0.142	http://www.ataricommunity.com/forums/newreply.php
+f	lRr	1	22	0.130	http://ut.filefront.com/news/MSU_Phase_3_Best_Vehicle_Best_Use_of_Karma_Physics;10984
+f	lRr	1	19	0.112	http://ataricommunity.com/forums/showthread.php
+f	lRr	1	16	0.094	http://studyeng.nt8.npsis.com/
+f	lRr	1	15	0.089	http://unreal.fr/
+f	lRr	1	12	0.071	http://www.ataricommunity.com/forums//showthread.php
+f	lRr	1	12	0.071	http://unrealtournament2004.filefront.com/file/HellWagon;27519
+f	lRr	1	9	0.053	http://www.unreal.fr/index.php
+f	lRr	1	9	0.053	http://www.whois.sc/piershaw.com
+f	lRr	1	9	0.053	http://www.dark3d.com/Forums/replies.asp
+f	lRr	1	8	0.047	http://www.ina-community.com/forums/newreply.php
+f	lRr	1	8	0.047	http://216.239.39.104/translate_c
+f	lRr	1	8	0.047	xxxx:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+f	lRr	1	6	0.035	http://www.google.com/search
+f	lRr	1	6	0.035	http://beyondunreal.com/
+f	lRr	1	5	0.030	http://kopan.ncity.net/board/view.php
+f	lRr	1	5	0.030	http://www.beyondunreal.com/daedalus/search.php
+f	lRr	1	5	0.030	http://forums.gtgames.com/forums/showthread.php
+f	lRr	1	5	0.030	http://www.atari.com/unrealtournament/news/view.php
+f	lRr	1	4	0.024	http://babelfish.altavista.com/babelfish/trurl_pagecontent
+f	lRr	1	4	0.024	http://ut2004.filefront.com/file/HellWagon;27519
+f	lRr	1	4	0.024	http://www.unreal2multiplayer.de/
+f	lRr	1	4	0.024	xxxx:++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+f	lRr	1	4	0.024	http://mlogin.linksynergy.com/php-bin/merchant/management/siteApprove.shtml
+f	lRr	1	3	0.018	http://sv1.3dbuzz.com/vbforum/unr_showthread.php
+f	lRr	1	3	0.018	http://devina-webcenter.humongous.com/admin/contests/msu3/mod_info.php
+f	lRr	1	3	0.018	http://exodecreation.free.fr/
+f	lRr	1	2	0.012	http://www.geocities.com/webrecommend/
+f	lRr	1	2	0.012	http://studyeng.nt8.npsis.com/index.htm
+f	lRr	1	2	0.012	http://www.brute.com.br/modules.php
+f	lRr	1	1	0.006	http://www.pmods.net/index.php
+f	lRr	1	1	0.006	http://www.ut2004world.de/phpkit/include.php
+f	lRr	1	1	0.006	http://www.fastcrawl.com/
+f	lRr	1	1	0.006	http://unreal.fr/forum/index.php
+f	lRr	1	1	0.006	http://www.google.be/search
+f	lRr	1	1	0.006	xxxx:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+f	lRr	1	1	0.006	http://www.mochamail.com/Express/imap4.asp
+f	lRr	1	1	0.006	http://www.unreal.fr/page.php
+f	lRr	1	11	0.065	[not listed: 11]
+s	*f	-30R	r
+s	lRr	1	13023	76.864	http://www.ataricommunity.com/
+s	lRr	1	2044	12.064	http://www.ina-community.com/
+s	lRr	1	530	3.128	http://www.utvehicles.com/
+s	lRr	1	378	2.231	http://ut.filefront.com/
+s	lRr	1	333	1.965	http://www.unrealtournament.com/
+s	lRr	1	265	1.564	http://www.unreal.fr/
+s	lRr	1	67	0.395	http://ina-community.com/
+s	lRr	1	61	0.360	http://www.beyondunreal.com/
+s	lRr	1	35	0.207	xxxx:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+s	lRr	1	33	0.195	http://unrealtournament.com/
+s	lRr	1	19	0.112	http://ataricommunity.com/
+s	lRr	1	18	0.106	http://studyeng.nt8.npsis.com/
+s	lRr	1	16	0.094	http://unreal.fr/
+s	lRr	1	12	0.071	http://unrealtournament2004.filefront.com/
+s	lRr	1	9	0.053	http://www.dark3d.com/
+s	lRr	1	9	0.053	http://www.whois.sc/
+s	lRr	1	8	0.047	xxxx:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+s	lRr	1	8	0.047	http://216.239.39.104/
+s	lRr	1	6	0.035	http://www.google.com/
+s	lRr	1	6	0.035	http://beyondunreal.com/
+s	lRr	1	5	0.030	http://www.atari.com/
+s	lRr	1	5	0.030	http://forums.gtgames.com/
+s	lRr	1	5	0.030	http://kopan.ncity.net/
+s	lRr	1	4	0.024	http://ut2004.filefront.com/
+s	lRr	1	4	0.024	http://www.unreal2multiplayer.de/
+s	lRr	1	4	0.024	http://mlogin.linksynergy.com/
+s	lRr	1	4	0.024	xxxx:++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+s	lRr	1	4	0.024	http://babelfish.altavista.com/
+s	lRr	1	3	0.018	http://sv1.3dbuzz.com/
+s	lRr	1	3	0.018	http://exodecreation.free.fr/
+s	lRr	1	22	0.130	[not listed: 18]
+N	*f	-30R	r
+N	RS	5	0	hellwagon
+N	RS	1	0	http://www.piershaw.com/
+N	RS	1	1	etoys direct
+n	*f	-30R	r
+n	RS	5	0	hellwagon
+n	RS	1	0	http://www.piershaw.com/
+n	RS	1	1	direct
+n	RS	1	1	etoys
+b	*f	-20P	p
+b	lRPb	1	39976	3712	73.458	MSIE
+b	lRPb	2	38883	3612	71.384	MSIE/6
+b	lRPb	2	1018	93	1.975	MSIE/5
+b	lRPb	2	71	6	0.076	MSIE/4
+b	lRPb	2	3	1	0.022	MSIE/3
+b	lRPb	1	8198	706	17.965	Mozilla
+b	lRPb	2	8162	704	17.842	Mozilla/1
+b	lRPb	2	8	1	0.018	Mozilla/0
+b	lRPb	1	610	302	0.051	Dreamweaver-WebDAV-SCM1.02
+b	lRPb	1	1869	185	3.813	Opera
+b	lRPb	2	1820	172	3.762	Opera/7
+b	lRPb	2	49	13	0.051	Opera/6
+b	lRPb	1	834	77	2.087	Netscape
+b	lRPb	2	790	69	1.989	Netscape/7
+b	lRPb	2	3	3	0.000	Netscape/8
+b	lRPb	2	34	3	0.085	Netscape/6
+b	lRPb	2	7	2	0.013	Netscape/4
+b	lRPb	1	284	54	0.505	Netscape (compatible)
+b	lRPb	1	587	46	1.256	Safari
+b	lRPb	2	504	41	1.057	Safari/125
+b	lRPb	2	73	4	0.182	Safari/85
+b	lRPb	2	8	1	0.013	Safari/100
+b	lRPb	1	48	38	0.001	Microsoft-WebDAV-MiniRedir
+b	lRPb	2	48	38	0.001	Microsoft-WebDAV-MiniRedir/5
+b	lRPb	1	32	28	0.000	Microsoft Data Access Internet Publishing Provider Protocol Discovery
+b	lRPb	1	31	26	0.011	Googlebot
+b	lRPb	2	31	26	0.011	Googlebot/2
+b	lRPb	1	59	22	0.055	Konqueror
+b	lRPb	2	59	22	0.055	Konqueror/3
+b	lRPb	1	21	21	0.002	msnbot
+b	lRPb	2	21	21	0.002	msnbot/0
+b	lRPb	1	13	13	0.002	asterias
+b	lRPb	2	13	13	0.002	asterias/2
+b	lRPb	1	9	9	0.000	SurveyBot
+b	lRPb	2	9	9	0.000	SurveyBot/2
+b	lRPb	1	7	4	0.006	ia_archiver
+b	lRPb	1	5	4	0.002	Mediapartners-Google
+b	lRPb	2	5	4	0.002	Mediapartners-Google/2
+b	lRPb	1	3	3	0.000	Gigabot
+b	lRPb	2	2	2	0.000	Gigabot/1
+b	lRPb	2	1	1	0.000	Gigabot/2
+b	lRPb	1	2	2	0.000	Java
+b	lRPb	2	2	2	0.000	Java/1
+b	lRPb	1	2	2	0.000	IconSurf
+b	lRPb	2	2	2	0.000	IconSurf/2
+b	lRPb	1	2	2	0.000	QuepasaCreep ( crawler@quepasacorp.com )
+b	lRPb	1	547	14	0.785	[not listed: 21]
+p	*f	0P	p
+p	lRPb	1	50359	4620	96.297	Windows
+p	lRPb	2	44078	4061	83.581	Windows XP
+p	lRPb	2	3685	283	7.900	Windows 2000
+p	lRPb	2	1777	175	3.325	Windows 98
+p	lRPb	2	475	63	0.826	Windows ME
+p	lRPb	2	171	22	0.324	Unknown Windows
+p	lRPb	2	153	14	0.283	Windows NT
+p	lRPb	2	15	1	0.032	Windows 95
+p	lRPb	2	3	1	0.022	Windows CE
+p	lRPb	2	2	0	0.003	Windows 3.1
+p	lRPb	1	1589	492	1.381	OS unknown
+p	lRPb	1	823	71	1.742	Macintosh
+p	lRPb	1	316	52	0.567	Unix
+p	lRPb	2	308	52	0.544	Linux
+p	lRPb	2	8	0	0.023	BSD
+p	lRPb	1	52	35	0.013	Known robots
+c	*f	0R	a
+c	R	45503	200 OK
+c	R	4	204 OK, but nothing to send
+c	R	836	206 Partial content
+c	R	588	2xx [Miscellaneous successes]
+c	R	46	302 Document found elsewhere
+c	R	6459	304 Not modified since last retrieval
+c	R	1	400 Bad request
+c	R	32	401 Authentication required
+c	R	4	403 Access forbidden
+c	R	1155	404 Document not found
+c	R	4	406 Document not acceptable to client
+c	R	23	412 Precondition failed
+c	R	2	416 Requested range not valid
+c	R	18	500 Internal server error
+P	R	6481	0
+P	R	0	<= 0.01
+P	R	796	0.01-0.02
+P	R	166	0.02-0.05
+P	R	678	0.05-0.1 
+P	R	1515	0.1 -0.2 
+P	R	3828	0.2 -0.5 
+P	R	1996	0.5 -1   
+P	R	4887	1-  2 
+P	R	15274	2-  5 
+P	R	9386	5- 10 
+P	R	4751	10- 20 
+P	R	2499	20- 60 
+P	R	632	60-120 
+P	R	356	120-300 
+P	R	98	300-600 
+P	R	47	> 600 
+z	Rb	4910	0.000	          0
+z	Rb	0	0.000	   1B-  10B
+z	Rb	0	0.000	  11B- 100B
+z	Rb	10063	0.038	 101B-  1kB
+z	Rb	5028	0.315	  1kB- 10kB
+z	Rb	736	0.721	 10kB-100kB
+z	Rb	32505	91.851	100kB-  1MB
+z	Rb	148	7.075	  1MB- 10MB
+t	*f	0.100000%B	b
+t	lRb	1	41699	88.200	.jpg  [JPEG graphics]
+t	lRb	1	272	7.127	.zip  [Zip archives]
+t	lRb	1	2475	3.864	.swf
+t	lRb	1	457	0.371	.dll
+t	lRb	1	4935	0.297	.htm  [Hypertext Markup Language]
+t	lRb	1	5	0.112	.pdf  [Adobe Portable Document Format]
+t	lRb	1	3547	0.029	[not listed: 7]
+i	*f	0.010000%B	b
+i	lRPB	1	52567	5217	6835483653	[root directory]
+i	lRPB	1	457	0	25485060	/_vti_bin/
+i	lRPB	1	10	0	1275330	/screenshot/
+i	lRPB	1	356	119	318011	[not listed: 15]
+r	*f	-50R	r
+r	lRbD	1	8995	22.059	2004	08	16	09	47	/screenshot2.jpg
+r	lRbD	1	4935	0.297	2004	08	16	09	12	/index.htm
+r	lRbD	1	3942	9.632	2004	08	03	18	44	/screenshot7.jpg
+r	lRbD	1	3725	4.044	2004	08	11	02	15	/logo1.jpg
+r	lRbD	1	2902	0.014	2004	07	08	19	21	/backcolor.gif
+r	lRbD	1	2655	3.505	2004	08	15	22	31	/null1.jpg
+r	lRbD	1	2535	5.778	2004	07	02	01	17	/screenshot4.jpg
+r	lRbD	1	2458	6.378	2004	07	02	01	17	/screenshot5.jpg
+r	lRbD	1	2309	5.356	2004	07	02	01	17	/screenshot8.jpg
+r	lRbD	1	2209	5.545	2004	07	02	01	17	/screenshot11.jpg
+r	lRbD	1	2060	4.375	2004	07	02	01	17	/screenshot12.jpg
+r	lRbD	1	1973	4.344	2004	07	02	01	17	/screenshot9.jpg
+r	lRbD	1	1861	3.880	2004	07	02	01	17	/screenshot6.jpg
+r	lRbD	1	1760	3.647	2004	07	02	01	17	/screenshot3.jpg
+r	lRbD	1	1666	3.883	2004	07	02	20	43	/screenshot10.jpg
+r	lRbD	1	1638	3.522	2004	08	05	14	33	/top.swf
+r	lRbD	1	1552	3.203	2004	07	02	20	43	/screenshot1.jpg
+r	lRbD	1	1203	1.573	2004	08	16	03	46	/ponyp.jpg
+r	lRbD	1	703	0.944	2004	08	11	02	16	/trucktest.jpg
+r	lRbD	1	609	0.014	2004	08	02	05	23	/mail.swf
+r	lRbD	1	404	0.371	2004	07	14	19	50	/_vti_bin/_vti_aut/author.dll
+r	lRbD	1	272	7.127	2004	06	20	12	17	/hellwagonmod.zip
+r	lRbD	1	204	0.009	2004	07	14	19	50	/
+r	lRbD	1	109	0.048	2004	07	08	08	28	/update1.swf
+r	lRbD	1	80	0.117	2004	07	08	14	55	/pier.swf
+r	lRbD	1	74	0.036	2004	08	02	16	06	/paywayweblogo.jpg
+r	lRbD	1	53	0.000	2004	07	14	19	50	/_vti_bin/shtml.dll
+r	lRbD	1	50	0.001	2004	07	14	19	50	/_vti_inf.html
+r	lRbD	1	39	0.164	2004	07	02	01	17	/sound.swf
+r	lRbD	1	15	0.000	2004	07	02	01	16	/postinfo.html
+r	lRbD	1	13	0.000	2004	08	16	04	41	/css/default.css
+r	lRbD	1	13	0.000	2004	07	02	01	16	/mainindex.html
+r	lRbD	1	12	0.000	2004	08	13	04	46	/duhome/default.asp
+r	lRbD	1	10	0.000	2004	08	16	04	38	/admin/submit.asp
+r	lRbD	1	10	0.019	2004	07	26	03	11	/screenshot/scshotcar1.jpg
+r	lRbD	1	8	0.000	2004	08	13	04	46	/assets/duportal.gif
+r	lRbD	1	8	0.000	2004	08	13	04	46	/assets/horizontalbar.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/title.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/bg_main.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/header_end_right.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/duportal.css
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/icon_cross.gif
+r	lRbD	1	8	0.000	2004	08	13	04	46	/assets/3.8.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/home/default.asp
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/bg_header.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/_spacer.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/bg_header_bottom.gif
+r	lRbD	1	8	0.000	2004	08	13	04	46	/assets/bullet.gif
+r	lRbD	1	8	0.000	2004	08	13	04	46	/assets/4.3.gif
+r	lRbD	1	8	0.000	2004	08	16	04	41	/assets/header_bottom.gif
+r	lRbD	1	222	0.116	2004	08	16	04	42	[not listed: 83]

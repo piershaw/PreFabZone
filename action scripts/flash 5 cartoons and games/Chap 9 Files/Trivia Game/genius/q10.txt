@@ -1,0 +1,1 @@
+question=Of which country was Aldo Moro prime minister?&a1=Italy&a2=Portugal&a3=Luxembourg&ca=1&category=people&level=hard

@@ -1,0 +1,1 @@
+question=Which country uses the Markka as their currency?&a1=Norway&a2=Denmark&a3=Finland&ca=3&category=misc&level=Hard

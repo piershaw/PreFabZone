@@ -1,0 +1,1 @@
+question=Excluding Jokers, how many cards are there in a deck of playing cards?&a1=50&a2=51&a3=52&ca=3&category=games&level=Easy

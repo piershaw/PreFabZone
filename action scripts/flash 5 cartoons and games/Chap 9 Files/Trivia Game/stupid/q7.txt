@@ -1,0 +1,1 @@
+question=Which American said I have a Dream?&a1=Ronald Reagan&a2=Martin Luther King&a3=Tiger Woods&ca=2&category=people&level=Easy

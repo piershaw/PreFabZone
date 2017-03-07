@@ -1,0 +1,664 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>xml_menu_help</title>
+</head>
+
+<body bgcolor="#FF6633" text="#000000" link="#0000FF" vlink="#99FF99" alink="#FF0000">
+<h2>xml_menu smart clip documentation</h2>
+<p><b><i><font color="#0000FF">by, Fotios</font></i></b> </p>
+<p style="text-align:justify"><i><b>Note: </b></i>Throughout this document I consistently refer to the same 
+  values as <i> properties </i>when in the context of objects and to <i>attributes</i> 
+  when in the context of XML tags. When I refer to<i> nodes</i>, I refer to the 
+  XML DOM Tree node objects (that are mapped to from the corresponding XML tags) 
+  and therefore I use the term <i>properties.</i></p>
+<h3>&nbsp;</h3>
+<h3><i>Introduction</i></h3>
+<p style="text-align:justify">This is the documentation for the xml_menu smart 
+  clip. The xml_menu smart clip creates a hierarchical menu system (windows style) 
+  based on an external XML file that can be accessed locally or through the Internet. 
+  The URL path to the XML file containing the menu's specification is the only 
+  parameter that you need to pass to the smart clip's instance via its &quot;clip 
+  parameters&quot; panel. The smart clip provides its own clip parameters mini 
+  UI (User Interface) for easy entry of the URL path to the XML file.<br>
+  <br>
+  The menu's positioning, appearance and behavior are highly customizable via 
+  attribute values specified within the xml file (as parameters of the root node 
+  tag). Menu items can be linked to other web pages or to internal actionscript 
+  functions (placed at the root of the movie or movie clip that contains the smart 
+  clip instance). Whether a menu item links to a web page (a URL) or an internal 
+  actionscript function depends on the value of the <i>calltype</i> parameter 
+  of the item's respective XML node.<br>
+</p>
+<p><img src="in_action1.gif" width="523" height="343"><br>
+  <b>The xml_menu in action (based on the 'menu.xml' file found in the same<br>
+     directory as this help file)</b></p>
+<p>&nbsp; </p>
+
+<h3><i>Features</i></h3>
+<ul style="text-align:justify">
+  <li><b>High customizability. </b>Most of the characteristics of the xml_menu 
+    are customizable. Check the &quot;Menu Parameters&quot; section for a complete 
+    list. </li>
+  <li><b>Auto Scrolling. </b>The menu automatically scrolls vertically and horizontally 
+    when the mouse gets close to its bounds. Thus, if menu items are outside the 
+    viewing area they are brought in and become accessible to the user.</li>
+  <li><b>Smart y-axis menu expansion.</b> The menu expands towards the side of 
+    its bounding box with the most space on the y axis. This ensures better management 
+    of the available viewing area.</li>
+  <li><b>Smart x-axis menu expansion. </b>This is actually an option. If this 
+    option is on, the menu only expands towards the right if there is enough space 
+    for one more level, otherwise it expands towards the left. If the option is 
+    off the menu will always expand to the right and the items that expand off 
+    the viewable area can be reached via the menu's auto scrolling feature.</li>
+  <li><b>Auto Bounds Detection. </b>The xml_menu smart clip can automatically 
+    detect the dimensions of the movie clip that contains it and behave accordingly.</li>
+  <li><b>Supports both URLs and Actions.</b> The menu items can access both URLs 
+    (an unlimited number of them) and internal Flash movie actions (an unlimited 
+    number of them). </li>
+  <li><b>XML reload capability.</b> If the connection to the XML file, for some 
+    reason, fails during loading the clip gives you the option of re-attempting 
+    to load the XML file without having to reload the whole page containing the 
+    movie that uses the xml_menu smart clip instance.</li>
+  <li><b>Menu navigation current path visual cue.</b> The current path of menu 
+    expansion is cued in the display by having the arrows of expanded nodes (only 
+    nodes that have children have arrows) turn to an alternate color (in the picture 
+    above they turn to red, but this is a customizable option).</li>
+  <li><b>HTML menu items.</b> The text content of the menu items is actually HTML, 
+    allowing for font face, font color, font style and font size customization. 
+    Font style (bold and italic) are customizable per item, the rest are customizable 
+    for the whole of the menu.</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3><i>How to use</i></h3>
+<p style="text-align:justify">The fact that you are reading this document probably 
+  means that you have successfully installed the xml_menu Flash extension (downloadable 
+  from the macromedia.com exchange site). If this is the case then all you have 
+  to do to successfully use the clip is:</p>
+<ol style="text-align:justify">
+  <li>Create an XML file defining the menu's hierarchical structure as well as 
+    its links, positioning and general appearance and behavior. Read the &quot;Building 
+    an xml_menu XML file&quot; section of this document for how you can do this.</li>
+  <li>In the Flash development environment, go to<i> Window &gt; Common Libraries 
+    &gt; xml_menu</i>. The smart clip's library window will open. The library 
+    contains the smart clip itself and the folder with the clip's assets.</li>
+  <li>Drag the smart clip in the stage area of your movie, like you would with 
+    any other clip. You now have an instance of the clip within the stage of your 
+    movie (or the stage of your clip, if you decided to place the smart clip within 
+    one of your clips). Notice that nothing but a little cross shows. This is 
+    because all content of the clip is dynamically attached later on (when the 
+    external XML data is brought in and parsed).</li>
+  <li>Open the<i> Clip Parameters</i> panel (on a PC right click on the instance 
+    and choose <i>Panels &gt; Clip Parameters</i>) and you will see the smart 
+    clip's animated UI.</li>
+  <li>Enter the URL path to the XML file containing the clip's definition and 
+    press the <i>Submit</i> button (just pressing the <i>&lt;enter&gt;</i> button 
+    will NOT work)</li>
+  <li>You are ready to go! The xml_menu should now work within your movie or clip.</li>
+</ol>
+<p>&nbsp;</p>
+<h3><i>Things to watch out for</i></h3>
+<ul style="text-align:justify">
+  <li>When using the<i> autosize</i> option (meaning that the menu attempts to 
+    auto detect the bounds of the containing clip and behave itself accordingly), 
+    it should be noted that these bounds are not fixed. In fact, they vary as 
+    the constituent parts of the clip move around (if they do) and scale up or 
+    down (if they do). Therefore, if you need to have fixed and specific menu 
+    bounds (which, most likely, will be the case) , within a movie that does not 
+    have well defined bounds ('well defined' meaning something like a frame or 
+    a background object occupying all of its area) using the <i>autosize</i> option 
+    may not be a good idea. In this case, you can specify the specific bounds 
+    of the movie using the <i>bound</i> related xml parameters. If you still prefer 
+    to use the autosize option you could put an invisible (<i>_alpha == 0</i>) 
+    border around the area that you want the menu to expand/scroll within. The 
+    problem that I am referring to can be easily noticed when placing the smart_clip 
+    in the stage area of the root of a movie that is totally empty and has its 
+    content dynamically attached only later. In any case, manifestation of this 
+    problem depends on the nature of the containing clip or movie and is not a 
+    bug; it's just the way things work in Flash. Also, note that manually specifying 
+    the dimensions of the container clip works in all cases.</li>
+  <li>The smart clip needs to ignore the white space (if there is white space) 
+    within the external XML file in order to work correctly. This is done automatically, 
+    (even if the XML does include white space in all the wrong places, like line-breaks 
+    within the text nodes) if the Flash player that is running the movie is at 
+    least version 5.0.41.0. This is not much of a problem when the movie is running 
+    in the web browser (since it usually uses the latest flash player version 
+    anyway, and the host HTML code can request an update of the plugin if the 
+    current version is below the required one) but when the built in flash player 
+    of the Flash authoring system version 5.0 is used this can be a problem. If 
+    you need to have the smart_clip work under the 5.0.0.0 flash player then YOU 
+    MUST make sure that there is no white space within your XML file. I also plan 
+    to make available, later on, a little win32 utility that will do that for 
+    you automatically. Read the &quot;What the future holds&quot; section for 
+    specifics. </li>
+  <li> When specifying the URL/path to the external XML file USE THE PROVIDED 
+    SUBMIT BUTTON. Just pressing the <i>&lt;enter&gt;</i> button will NOT work.</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3><i>Tips</i></h3>
+<ul style="text-align:justify">
+  <li>Once the smart clip is brought into our movie we actually have it (along 
+    with all of its assets) as a clip within our movie's library. This means that 
+    we can delete its instance from our movie's stage and actually dynamically 
+    attach it later on with an <i>attachMovie() </i>call (as long as we also enable 
+    linkage to it, i.e. export it from our library with a name). In this case 
+    we can also set the clip's<i> fileurl </i>variable dynamically (in order to 
+    direct it to load the proper xml file) with no problem.</li>
+  <li>Different fonts will display differently at different font sizes (and that 
+    also includes their actual placement within the menu item's area). The maximum 
+    number of characters within your menu item also depends on the font size, 
+    but in all cases is not very long, so be name length savvy. For the best possible 
+    results for your own particular needs, you need to play around with the settings 
+    a bit.</li>
+  <li>If you want the menu clips to be above all other clips of your movie make 
+    sure you specify a <i>start_level </i>property value that is higher than the 
+    depth of any of the other clips in your movie. Using a high enough <i>start_level 
+    </i>value is also good because it ensures that the xml_menu attached clip 
+    menu item clip instances will not interfere with pre-existing clip instances 
+    in your movie.</li>
+</ul>
+<p>&nbsp;</p>
+<h3><i>Building an xml_menu XML file</i></h3>
+<p style="text-align:justify">It is very easy to write XML code that specifies 
+  the hierarchical structure of your menu and the URLs or actions that you want 
+  your menu items to invoke. The XML data also specifies the appearance and behavior 
+  of the xml_menu instance.</p>
+<p style="text-align:justify">Here is a simple XML file specifying a two level xml_menu:</p>
+<p><node name="root" display="Root"> <node name="root" display="Root"> <node display="fotios" bold="1" italic="1" name="level1c" active="1" calltype="url"></node></node></node><node name="root" display="Root"><node name="root" display="Root"><node display="fotios" bold="1" italic="1" name="level1c" active="1" calltype="url"></node></node></node><node name="root" display="Root"><node display="write hello" bold="1" italic="1" name="level1d" active="1" calltype="action"><font face="Courier New, Courier" color="#000099">&lt;node&nbsp;name=&quot;root&quot;&nbsp;display=&quot;Root&quot;&nbsp;active=&quot;1&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;name=&quot;level1_a&quot;&nbsp;display=&quot;level1&nbsp;node&quot;&nbsp;active=&quot;1&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;fotios'&nbsp;site&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level2_a&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;url&quot;&gt;http://fotios.cc&lt;/node&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;flash&nbsp;site&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level2_b&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;url&quot;&gt;http://flash.com&lt;/node&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/node&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;do&nbsp;action&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level1_b&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;action&quot;&gt;1&lt;/node&gt;<br>
+  <br>
+  &lt;/node&gt;</font><font face="Courier New, Courier" color="Green"><br>
+  </font></node></node></p>
+<p style="text-align:justify">The XML code seen above will not actually work (at 
+  least in the manner intended) because all the required root tag parameters that 
+  ARE NEEDED for the correct specification of the menu, were left out in the sake 
+  of simplicity. However, everything else is correct.</p>
+<p style="text-align:justify">As you can see all we have to do to specify menu 
+  items that are nested within other menu items is nest <i>&lt;node&gt;</i> tags 
+  within other <i>&lt;node&gt;</i> tags thus specifying menu levels. The order 
+  that the various node properties and their values (like <i>active=&quot;1&quot;</i>) 
+  are specified is not important. Not even the names of the tags themselves are 
+  important, i.e. you could easily have used <i>&lt;lala&gt;</i> tags instead 
+  if you so fancied (in fact you can use such tag names in your specifications, 
+  including one letter names if you wish to minimize file size). What IS important 
+  though is the order and nesting sequence of these tags as well as the value 
+  of their attributes. Another very important thing to remember is that all nodes 
+  MUST have unique names and that the root node MUST be named <b>&quot;root&quot;</b>. 
+  Read the &quot;XML Constraints&quot; section for listing of all XML code constraints. 
+</p>
+<p style="text-align:justify">The root node is the node that holds the properties 
+  and their values that specify the overall appearance and behavior of our menu 
+  (see the Menu Parameters section of this document for a complete list of them 
+  along with a short explanation of what exactly each one specifies)</p>
+<p style="text-align:justify">Here is what the XML code above would look like 
+  if all the required parameters were included (this is actual working code that 
+  you can try; you can find this code in the file named &quot;menu2.xml&quot; 
+  in the same folder as this help file, along with &quot;menu.xml&quot; for a 
+  more complicated example):</p>
+<p><font face="Courier New, Courier" color="#000099">&lt;node&nbsp;name=&quot;root&quot;&nbsp;display=&quot;Root&quot;&nbsp;active=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;active=&quot;1&quot;&nbsp;fontface=&quot;georgia,times&nbsp;new&nbsp;roman,courier&quot;&nbsp;fontsize=&quot;12&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;&nbsp;fontcolor=&quot;#0000FF&quot;&nbsp;width=&quot;80&quot;&nbsp;height=&quot;20&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bgcolor=&quot;0xCCCCCC&quot;&nbsp;bgalpha=&quot;100&quot;&nbsp;leftbound=&quot;20&quot;&nbsp;rightbound=&quot;20&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upperbound=&quot;20&quot;&nbsp;lowerbound=&quot;20&quot;&nbsp;xroot=&quot;0&quot;&nbsp;yroot=&quot;0&quot;&nbsp;xgap=&quot;1&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ygap=&quot;-1&quot;&nbsp;transparent=&quot;0&quot;&nbsp;mincrement=&quot;5&quot;&nbsp;delay=&quot;15&quot;&nbsp;sexpand=&quot;1&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xscroll=&quot;1&quot;&nbsp;yscroll=&quot;1&quot;&nbsp;startlevel=&quot;2000&quot;&nbsp;autosize=&quot;0&quot;&nbsp;cwidth=&quot;550&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cheight=&quot;400&quot;&nbsp;incolor=&quot;0x000000&quot;&nbsp;hicolor=&quot;0xFF0000&quot;&nbsp;inalpha=&quot;70&quot;&nbsp;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;frame=&quot;1&quot;&nbsp;frcolor=&quot;0x000000&quot;&nbsp;narcolor=&quot;0x0000FF&quot;&nbsp;aarcolor=&quot;0xFF0000&quot;&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;name=&quot;level1_a&quot;&nbsp;display=&quot;level1&nbsp;node&quot;&nbsp;active=&quot;1&quot;&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;fotios'&nbsp;site&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level2_a&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;url&quot;&gt;http://fotios.cc&lt;/node&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;flash&nbsp;site&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level2_b&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;url&quot;&gt;http://flash.com&lt;/node&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/node&gt;<br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;node&nbsp;display=&quot;do&nbsp;action&quot;&nbsp;bold=&quot;1&quot;&nbsp;italic=&quot;1&quot;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=&quot;level1_b&quot;&nbsp;active=&quot;1&quot;&nbsp;calltype=&quot;action&quot;&gt;1&lt;/node&gt;<br>
+  <br>
+  &lt;/node&gt;<br>
+  </font><font face="Courier New, Courier" color="Green"> </font></p>
+<p style="text-align:justify">And here is what the resulting menu would look like:</p>
+<p><img src="in_action2.gif" width="273" height="97"></p>
+<p style="text-align:justify">As you can see the &quot;level 1 node&quot; appears 
+  in non-bold and non-italic type because we have not included the<i> bold</i> 
+  and <i>italic</i> attributes in its corresponding tag. Although this seems to 
+  be working as expected in this case, it may not work in other cases or for other 
+  properties. Specifically, you are STRONGLY URGED to explicitly specify ALL attribute 
+  values (in this case we should have included<i> bold=&quot;0&quot;</i> and <i>italic=&quot;0&quot;</i> 
+  in order to be safe).</p>
+<p style="text-align:justify">Pressing on the &quot;do action&quot; menu item 
+  would execute the<i> doSomething(parameter) </i>function at the root of the 
+  container movie clip (the clip that contains the xml_menu instance), passing 
+  it '1' as the parameter value (argument). On the other hand, pressing the URL 
+  related menu items would transport us to the page of the specified URL.</p>
+<p style="text-align:justify"><b>The URLs reside within the external XML file 
+  (as text nodevalues) and should be URI encoded if it is needed. </b>Normal URLs 
+  that you get off the Internet are usually already URI encoded, but if you type 
+  the URL yourself make sure that it is properly URI encoded if it needs to be 
+  (e.g. a space should be turned to a<i> %20 </i>escape sequence). </p>
+<p style="text-align:justify">If a menu item is of <i>calltype=&quot;action&quot;</i> 
+  then its child text-node should contain the text string that will be passed 
+  as the single agument to a function named <i>doSomething()</i> at the root of 
+  the clip/movie that contains the xml_menu smart clip instance.<b> It is your 
+  responsibility to define a <i>doSomething()</i> function at the root of the 
+  containing clip.</b> This function can check the single parameter value with 
+  a series of<i> if-else statements </i>in order to determine the appropriate 
+  action. This scheme allows you to attach a virtually unlimited number of internal 
+  actions to your xml_menu instance. Here is a simple sample of a <i>doSomething()</i> 
+  function:</p>
+<pre style="text-align:justify"><font color="#000099">function doSomething(param)
+{
+
+  if (param==&quot;dothis&quot;)
+
+    doThis();
+
+  else if (param==&quot;dothat&quot;)
+
+    doThat();
+}</font></pre>
+<p style="text-align:justify">In case you would like a menu item to open a new 
+  browser window (with user specified characteristics) instead of actually navigating 
+  to the link, then instead of entering the URL, enter the appropriate javascript 
+  command. The recommended format of such a command is something like this:</p>
+<p><i>javascript:void(window.open('http://fotios.cc', 'fotios site', 'width=750,height=550,status=no,menubar=no,scrollbars=yes,screenX=0,left=0,screenY=0,top=0,left=0'));</i></p>
+<h3>&nbsp;</h3>
+<h3><i>XML Constraints</i></h3>
+<ul>
+  <li>Root property <i><b>delay</b></i> must be larger than 2 (i.e. 3 and up). 
+  </li>
+  <li>The <b><i>name</i></b> property of each node must be unique within the whole 
+    XML file.</li>
+  <li>The <i><b>name</b></i> property of the root node (that is the node that 
+    encloses all other nodes) must be <b>&quot;root&quot;</b>.</li>
+  <li>All properties of all nodes must be declared and given valid values (consult 
+    the table in the &quot;Menu Parameters&quot; section).</li>
+</ul>
+<p>&nbsp;</p>
+<h3><i>Menu Parameters</i></h3>
+<p>Note that:</p>
+<ul>
+  <li>All parameters that are valid for a node are compulsory, i.e. they must 
+    be declared and given valid values. </li>
+  <li>All numeric values are integer values. </li>
+</ul>
+<table width="100%" border="2">
+  <tr> 
+    <td width="17%"><font color="#000000" size="+1"><b>Parameter Name</b></font></td>
+    <td width="6%"><font color="#000000" size="+1"><b>Tag</b></font></td>
+    <td width="12%"><font color="#000000" size="+1"><b>Min Value</b></font></td>
+    <td width="12%"><font color="#000000" size="+1"><b>Max Value</b></font></td>
+    <td width="17%"><font color="#000000" size="+1"><b>Constraint</b></font></td>
+    <td width="36%"><font color="#000000" size="+1"><b>Explanation</b></font></td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>name</b></td>
+    <td width="6%">all</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">must be unique in all xml file</td>
+    <td width="36%">Text string that uniquely identifies a node</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>display</b></td>
+    <td width="6%">all</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Text string that will appear within the menu item</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>active</b></td>
+    <td width="6%">all</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Declares whether the node will be active or not (it gets grayed 
+      out if not)</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>bold</b></td>
+    <td width="6%">all</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Displays the node text in bold</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>italic</b></td>
+    <td width="6%">all</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Displays the node text in italic</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>fontface</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The name of the font to use, specified the same way you would 
+      specify it in HTML code.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>fontsize</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Permissible values depend on used font. Values above 20-22 
+      may not appear at all given the limitation of the used Flash text box size.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>fontcolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">#000000</td>
+    <td width="12%">#FFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Color specified the usual HTML compliant way.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>width</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The width of each menu item. Contained text will scale accordingly.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>height</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The height of each menu item. Contained text will scale accordingly.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>bgcolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The menu item background color specified as a Flash hex constant.</td>
+  </tr>
+  <tr> 
+    <td height="25" width="17%"><b>bgalpha</b></td>
+    <td height="25" width="6%">root</td>
+    <td height="25" width="12%">0</td>
+    <td height="25" width="12%">100</td>
+    <td height="25" width="17%">n/a</td>
+    <td height="25" width="36%">alpha percentage of the background (used for transparency 
+      effect) </td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>leftbound</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The number of pixels from the left end of the movie clip containing 
+      the xml_menu instance that will trigger a scroll when the mouse rolls over 
+      them.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>rightbound</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Same as above but on the right</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>upperbound</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Same as above but on the upper end of the container clip.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>lowerbound</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Same as above but for the lower end of the container clip</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>xroot</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The local coord system x_axis coordinate for the placement 
+      of the root menu item clip (this is relative to the position of the smart 
+      clip instance). suggested value: 0.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>yroot</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The local coord system y_axis coordinate for the placement 
+      of the root menu item clip (this is relative to the position of the smart 
+      clip instance). suggested value: 0.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>xgap</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Specifies the x axis gap between adjacent menu items in pixels. 
+      Do not use too high a value in order to ensure the continuity of your menu 
+      item clips as the user rolls the mouse cursor over them.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>ygap</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Specifies the y axis gap between adjacent menu items in pixels.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>transparent</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Specifies whether the menu item background will be visible 
+      or not. If 0 the menu item background becomes totally transparent.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>mincrement</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Specifies the number of pixels the menu scrolls in each movie 
+      frame.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>delay</b></td>
+    <td width="6%">root</td>
+    <td width="12%">3</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The number of frames that a menu level will wait before collapsing 
+      after the it receives the signal that it should collapse. This makes possible 
+      not losing your expanded path right away if you happen to accidentally roll 
+      off the menu area for an instance. The actual time the menu level waits 
+      depends on your movie's fps but changing the delay value you can compensate 
+      accordingly. </td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>sexpand</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Smart x-axis expand on or off.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>xscroll</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">x-axis scroll on or off</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>yscroll</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">y-axis scroll on or off</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>startlevel</b></td>
+    <td width="6%">root</td>
+    <td width="12%">1</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The level (or depth) of the root menu item clip. The smart 
+      clip will only attach clips to levels above the start_level in a serial 
+      manner. </td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>autosize</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">If this option is on the xml_menu instance will detect the 
+      dimensions, of the clip that contains it, automatically.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>cwidth</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The container clip's width. This is only used if autosize 
+      is set to 0.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>cheight</b></td>
+    <td width="6%">root</td>
+    <td width="12%">n/a</td>
+    <td width="12%">n/a</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The container clip's height. This is only used if autosize 
+      is set to 0.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>incolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The color used for the transparency that appears above an 
+      inactive menu item (the usual is a shade of gray)</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>hicolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The color used for the transparency that appears above a menu 
+      item when the mouse cursor is on top of it.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>inalpha</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">100</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Percentage indicating the _alpha state of the inactive clip</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>frame</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0</td>
+    <td width="12%">1</td>
+    <td width="17%">n/a</td>
+    <td width="36%">Indicates whether a hairline border will appear around each 
+      of the menu items.</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>frcolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The color of the hairline frame that can appear around the 
+      menu items</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>narcolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The color of the normal arrow clip that indicates that a menu 
+      node has children and is therefore expandable</td>
+  </tr>
+  <tr> 
+    <td width="17%"><b>aarcolor</b></td>
+    <td width="6%">root</td>
+    <td width="12%">0x000000</td>
+    <td width="12%">0xFFFFFF</td>
+    <td width="17%">n/a</td>
+    <td width="36%">The color of the active arrow clip that indicates that a node 
+      has expanded.</td>
+  </tr>
+</table>
+<h3>&nbsp;</h3>
+<h3><i>What the future holds</i></h3>
+<p style="text-align:justify">The xml_menu smart clip will be supported in the future as I believe that it 
+  will prove useful for many people. I intend to develop and soon release two 
+  applications that will help Flash developers easily and flawlessly create xml 
+  based menus using the xml_menu smart clip.</p>
+<ul style="text-align:justify">
+  <li> A simple win32 based application that will automatically remove whitespace 
+    from xml_menu XML files and will also perform URI encoding of any contained 
+    URLs. </li>
+  <li>A web based Java applet that will perform online a well-formedness test 
+    against an xml file specifying an xml_menu structure and then validate it 
+    based on an xml schema.</li>
+  <li>A simple GUIed win32 application that will scan a directory tree and automatically 
+    create an xml_menu xml file that links to all filenames found in the tree 
+    that conform to the user specified filename/extension pattern.</li>
+</ul>
+<h3>&nbsp;</h3>
+<h3><i>Contact</i></h3>
+<p style="text-align:justify">Fotios is a lone programmer devoted to freedom of 
+  speech, ideas and code. He currently exists alone in the Scottish wasteland 
+  and lives off freelance projects, that he takes up now and then, and part time 
+  bouncing for local pubs and clubs. His dream is to one day become a full time 
+  systems programmer for a major company and part time bouncer for a topless or 
+  all-nude joint in New York City. </p>
+<p style="text-align:justify"><b><i>NYC, I love ya more than ever!</i></b></p>
+<p><b>Developer contact:</b> <a href="mailto:fotios@altavista.net">fotios@altavista.net</a><br>
+  <b>Developer site:</b> <a href="http://fotios.cc/" target="_blank">http://fotios.cc/</a><br>
+  <b>Developer hangout:</b> The FlashPro mailing list, <a href="http://www.muinar.org/">http://www.muinar.org/</a> 
+</p>
+<h4>&nbsp;</h4>
+<h3><b><i><font color="#990099">Enjoy!</font></i></b></h3>
+</body>
+</html>

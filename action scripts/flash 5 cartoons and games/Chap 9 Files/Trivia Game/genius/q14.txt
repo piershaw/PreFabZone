@@ -1,0 +1,1 @@
+question=Who was the last wife of King Henry VIII?&a1=Ann Boleyn&a2=Catherine of Aragon&a3=Catherine Parr&ca=3&category=people&level=hard

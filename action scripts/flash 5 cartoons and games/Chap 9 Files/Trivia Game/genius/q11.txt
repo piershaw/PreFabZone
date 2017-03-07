@@ -1,0 +1,1 @@
+question=What was American inventor Thomas Edison's middle name?&a1=Aldo&a2=Ally&a3=Alva&ca=3&category=people&level=hard

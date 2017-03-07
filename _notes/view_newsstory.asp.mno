@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_NSstory" value="name:ID;datatype:3,name:fdate;datatype:202,name:newscat;datatype:202,name:graber;datatype:202,name:poststat;datatype:202,name:title;datatype:202,name:news;datatype:203,name:catlink;datatype:202,name:newslink;datatype:202,name:thumbnail;datatype:202,name:image;datatype:202,name:keywords;datatype:202,name:posteby;datatype:202" />
+</info>

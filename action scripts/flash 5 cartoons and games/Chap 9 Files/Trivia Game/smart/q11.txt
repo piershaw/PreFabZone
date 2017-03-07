@@ -1,0 +1,1 @@
+question=Which is the oldest continually inhabited city?&a1=Damascus&a2=Bethlehem&a3=Rome&ca=1&category=misc&level=medium

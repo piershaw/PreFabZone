@@ -1,0 +1,1 @@
+question=How many seconds are there in an hour?&a1=3600&a2=36000&a3=360000&ca=1&category=misc&level=Easy

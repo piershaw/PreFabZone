@@ -1,0 +1,1 @@
+question=In 1997, Thrust SSC set a new land speed record - how fast was it?&a1=683 mph&a2=723 mph&a3=763 mph&ca=3&category=misc&level=medium

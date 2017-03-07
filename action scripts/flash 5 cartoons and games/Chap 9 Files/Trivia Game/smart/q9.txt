@@ -1,0 +1,1 @@
+question=Who invented dynamite?&a1=Alfred Nobel&a2=Thomas Nite&a3=Marie Curie&ca=1&category=science&level=Medium

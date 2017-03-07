@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_send" value="name:ID;datatype:3,name:CatName;datatype:202,name:CatValue;datatype:202" />
+	<infoitem key="UD_RequestQString1" value="ID" />
+	<infoitem key="UD_requestQStringCount" value="2" />
+	<infoitem key="UD_RequestQString2" value="Category" />
+</info>

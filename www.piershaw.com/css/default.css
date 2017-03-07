@@ -1,0 +1,33 @@
+<style TYPE="text/css">
+
+DIV.Toolbar		A   	       	{color:	#FFFFFF; text-decoration:none}
+
+DIV.Links		A   	       	{color:	#009999; text-decoration:none}
+DIV.Links		A:link			{color:	#009999; text-decoration:none}
+DIV.Links		A:visited		{color:	#009999; text-decoration:none}
+DIV.Links		A:hover 		{color: #FF0000; text-decoration:none}
+
+DIV.Login		A   	       	{color:	#000000; text-decoration:none}
+DIV.Login		A:link			{color:	#000000; text-decoration:none}
+DIV.Login		A:visited		{color:	#000000; text-decoration:none}
+DIV.Login		A:hover 		{color: #FF0000; text-decoration:none ; font-weight: bold}
+
+.Fields {
+border: 1px #666666 groove;
+; background-color: #CCCCCC
+; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: xx-small; background-position: center center
+; font-weight: bold; color: #009999
+}
+.Buttons {
+border: 1px #666666 groove;
+; background-color: #009999
+; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: xx-small; background-position: center center
+; font-weight: bold
+; color: #00FF00; height: auto; width: auto
+}
+
+.bg_banner { background-color: #009999 }
+.bg_navigator { background-color: #00CC99}
+.bg_login { background-color: #CCCCCC }
+
+</style>

@@ -1,0 +1,1 @@
+question=By what name was Lord Greystoke better known?&a1=Tarzan&a2=James Bond&a3=Batman&ca=1&category=people&level=Medium

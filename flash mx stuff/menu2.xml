@@ -1,0 +1,21 @@
+<node name="root" display="Root" active="1"
+      active="1" fontface="georgia,times new roman,courier" fontsize="12" 
+      bold="1" italic="1" fontcolor="#0000FF" width="80" height="20" 
+      bgcolor="0xCCCCCC" bgalpha="100" leftbound="20" rightbound="20" 
+      upperbound="20" lowerbound="20" xroot="0" yroot="0" xgap="1" 
+      ygap="-1" transparent="0" mincrement="5" delay="15" sexpand="1" 
+      xscroll="1" yscroll="1" startlevel="2000" autosize="0" cwidth="550" 
+      cheight="400" incolor="0x000000" hicolor="0xFF0000" inalpha="70" 
+      frame="1" frcolor="0x000000" narcolor="0x0000FF" aarcolor="0xFF0000">
+
+     <node name="level1_a" display="level1 node" active="1">
+          <node display="fotios' site" bold="1" italic="1"
+                name="level2_a" active="1" calltype="url">http://fotios.cc</node>
+          <node display="flash site" bold="1" italic="1"
+                name="level2_b" active="1" calltype="url">http://flash.com</node>
+     </node>
+
+     <node display="do action" bold="1" italic="1"
+           name="level1_b" active="1" calltype="action">1</node>
+
+</node>

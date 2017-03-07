@@ -1,0 +1,131 @@
+DIV.Links		A   	       	{color:	#003399; text-decoration:none}
+DIV.Links		A:link			{color:	#003399; text-decoration:none}
+DIV.Links		A:visited		{color:	#003399; text-decoration:none}
+DIV.Links		A:hover 		{color: #FF0000; text-decoration:none}
+
+
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+.textBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+}
+.textColor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #003399;
+}	
+
+.textBoldColor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #003399;
+}
+
+
+}
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #003399;
+}
+
+
+
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #003399;
+	font-weight: bold;
+	background-image: url(bg_header.gif);
+	border: 1px groove #003399;
+
+
+
+	
+	
+}
+
+
+.bgTable {
+	background-color: #F2F2F2;
+}
+
+
+.bgTableBorder {
+	background-color: #003399;
+}
+body {
+	background-image: url(bg_main.gif);
+
+}
+.bgMouseOver {
+	background-color: #FFFFFF;
+}
+.bgMouseOff {
+}
+.textGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #CCCCCC;
+}
+.textRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #FF0000;
+}
+
+
+.bgGrey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #666666;
+	background-color: #CCCCCC;
+}
+.bgCurrentDay {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	background-color: #FFCC00;
+}
+.bgDayListing {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #003399;
+	background-color: #66CCFF;
+}
+
+
+.bgWhite{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

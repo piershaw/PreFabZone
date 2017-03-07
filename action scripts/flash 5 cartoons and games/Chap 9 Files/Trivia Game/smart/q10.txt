@@ -1,0 +1,1 @@
+question=Which is the only gemstone made from one element?&a1=Ruby&a2=Diamond&a3=Emerald&ca=2&category=science&level=medium
